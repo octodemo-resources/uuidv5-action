@@ -68,6 +68,11 @@ describe('UUID v5 Generator', () => {
         expected_uuid: '6c8c703b-30c6-5e41-a39b-8445f01b0fe7',
       },
       {
+        namespace: 'bookstore-demo',
+        value: 'qa-peter-murray-patch-1',
+        expected_uuid: '257feaea-bbc8-5c80-bde1-2ae86bceff13',
+      },
+      {
         namespace: '3ee83601-31ad-563a-9a57-887cf25ff9af',
         value: 'qa-peter-murray-patch-1',
         expected_uuid: 'dd96a8d8-9042-5488-a990-3d4dbbb231a4',
