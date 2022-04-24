@@ -9,7 +9,7 @@ async function run() {
     const result = uuidGenerator.generate(namespace, value);
 
     core.setOutput('uuid', result.uuid);
-    core.setOutput('uuid_short', result.uuidShort);
+    core.setOutput('uuid_short', result.uuid_short);
     core.setOutput('namespace_uuid', result.namespace);
   } catch (err) {
     core.setFailed(`Failed to convert to UUID v5, ${err}`);
