@@ -1,0 +1,28 @@
+{
+  "name": "uuidv5-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive \"src/**/*.test.js\"",
+    "build": "npx @vercel/ncc@0.33.4 build --source-map index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octodemo/uuidv5-action.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/octodemo/uuidv5-action/issues"
+  },
+  "homepage": "https://github.com/octodemo/uuidv5-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.2"
+  }
+}
