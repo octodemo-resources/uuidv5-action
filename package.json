@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --recursive \"src/**/*.test.js\"",
-    "build": "npx @vercel/ncc@0.33.4 build --source-map index.js"
+    "build": "npm ci && npx @vercel/ncc@0.33.4 build --source-map index.js"
   },
   "repository": {
     "type": "git",
