@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/octodemo/uuidv5-action#readme",
   "dependencies": {
-    "@actions/core": "^1.6.0",
+    "@actions/core": "^1.9.1",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
