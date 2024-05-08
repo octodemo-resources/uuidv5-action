@@ -20,5 +20,5 @@ outputs:
     description: The UUID value used for the namespace (converts any string value supplied for the namespace into a valid UUID)
 
 runs:
-  using: node16
+  using: node20
   main: dist/index.js

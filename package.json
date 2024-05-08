@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --recursive \"src/**/*.test.js\"",
-    "build": "npm ci && npx @vercel/ncc@0.33.4 build --source-map index.js"
+    "build": "npm ci && npx @vercel/ncc@0.38.1 build --source-map index.js"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/octodemo/uuidv5-action#readme",
   "dependencies": {
-    "@actions/core": "^1.6.0",
-    "uuid": "^8.3.2"
+    "@actions/core": "^1.10.1",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "chai": "^4.3.6",
