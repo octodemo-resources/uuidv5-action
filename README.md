@@ -10,7 +10,7 @@ GitHub Action that uses UUID v5 to create UUIDs for namespaces and values provid
 ## Outputs
 
 * `uuid`: The generated UUID v5 value for the provided namespace and value
-* `uuid_short`: The generated UUID v5 value stripped of any `-`'s so as to be only 32 characters long (useful with cloud resources that impost 32 character limits on strings)
+* `uuid_short`: The generated UUID v5 value stripped of any `-`'s so as to be only 32 characters long (useful with cloud resources that impose 32 character limits on strings)
 * `namespace_uuid`: The namespace value as a UUID that was used in the generation. If the namespace value was a UUID to begin with then this will contain that value, otherewise
   it is the result of the namespace being converted into a valid UUID v5 before being used to encode the value
 
