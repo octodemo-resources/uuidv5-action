@@ -20,7 +20,7 @@ Create a UUID v5 value for a string namespace and value:
 ```
 - name: Convert to UUID
   id: uuid_v5_values
-  uses: octodemo/uuidv5-action@v1
+  uses: octodemo-resources/uuidv5-action@v1
   with:
     namespace: bookstore-demo
     value: qa-peter-murray-patch-1
